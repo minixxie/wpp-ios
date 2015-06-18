@@ -10,6 +10,8 @@
 		7CB3E8B51AC285330069A83A /* wpp-ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7CB3E8B41AC285330069A83A /* wpp-ios.h */; };
 		7CB3E8BD1AC285330069A83A /* libwpp-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB3E8B11AC285330069A83A /* libwpp-ios.a */; };
 		7CB3E8CE1AC2865D0069A83A /* UITextField+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3E8CD1AC2865D0069A83A /* UITextField+custom.m */; };
+		7CC471701B3167C500434212 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC4716F1B3167C500434212 /* UIColorExtensions.swift */; };
+		7CC471731B31836800434212 /* Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC471721B31836800434212 /* Regex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		7CB3E8CB1AC2865D0069A83A /* UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor.h; sourceTree = "<group>"; };
 		7CB3E8CC1AC2865D0069A83A /* UITextField+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+custom.h"; sourceTree = "<group>"; };
 		7CB3E8CD1AC2865D0069A83A /* UITextField+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+custom.m"; sourceTree = "<group>"; };
+		7CC4716F1B3167C500434212 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		7CC471711B31836800434212 /* Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Regex.h; sourceTree = "<group>"; };
+		7CC471721B31836800434212 /* Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Regex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 		7CB3E8B31AC285330069A83A /* wpp-ios */ = {
 			isa = PBXGroup;
 			children = (
+				7CC471711B31836800434212 /* Regex.h */,
+				7CC471721B31836800434212 /* Regex.m */,
+				7CC4716F1B3167C500434212 /* UIColorExtensions.swift */,
 				7CB3E8CB1AC2865D0069A83A /* UIColor.h */,
 				7CB3E8CC1AC2865D0069A83A /* UITextField+custom.h */,
 				7CB3E8CD1AC2865D0069A83A /* UITextField+custom.m */,
@@ -197,7 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC471731B31836800434212 /* Regex.m in Sources */,
 				7CB3E8CE1AC2865D0069A83A /* UITextField+custom.m in Sources */,
+				7CC471701B3167C500434212 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +372,7 @@
 				7CB3E8C71AC285330069A83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CB3E8C81AC285330069A83A /* Build configuration list for PBXNativeTarget "wpp-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +381,7 @@
 				7CB3E8CA1AC285330069A83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
